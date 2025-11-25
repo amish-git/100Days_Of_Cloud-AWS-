@@ -1,0 +1,14 @@
+Security Group works at EC2/ENI level.
+Stateful-> If inbound allowed, return traffic is automatically allowed.
+
+Common Use: Control access to EC2, Load Balancer, RDS, EKS nodes.
+("Who can talk to my EC@ instance?")
+
+
+NACL(Network ACL):
+Subnet-level firewall
+Works at VPC subnet level
+Stateless --> Need to allow both inbound and outbound explicitly
+Rules: Allow + Deny
+Evaluated in order(rule number)
+Good for blocking specific IPs or enforcing subnet-level boundaries.
