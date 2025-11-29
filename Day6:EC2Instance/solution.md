@@ -15,8 +15,8 @@ For this task, create an EC2 instance with following requirements:
 
 # SOLUTION
 
-![](ec2.png)
-![](ec21.png)
-![](ec22.png)
-![](ec23.png)
-![](ec24.png)
+![](EC2/ec2.png)
+![](EC2/ec21.png)
+![](EC2/`ec22.png)
+![](EC2/ec23.png)
+![](EC2/ec24.png)
